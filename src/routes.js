@@ -10,7 +10,7 @@ routes.post('/user',UserController.store)
 routes.post('/sessions', SessionController.store)
 
 routes.use(authMiddleware)
-routes.put('/users', SessionController.update)
+routes.put('/users', UserController.update)
 
 
 
