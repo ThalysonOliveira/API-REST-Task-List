@@ -13,6 +13,7 @@ routes.post('/sessions', SessionController.store)
 routes.use(authMiddleware)
 routes.put('/users', UserController.update)
 routes.post('/tasks', TaskController.store)
+routes.get('/tasks', TaskController.index)
 
 
 
