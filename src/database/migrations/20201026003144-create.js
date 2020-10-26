@@ -1,43 +1,40 @@
-'use strict';
-
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('tasks', {
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.createTable('tasks', {
       id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         autoIncrement: true,
-        primaryKey: true
+        primaryKey: true,
+      },
+      task: {
+        type: Sequelize.STRING,
+        allowNull: false,
       },
       check: {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
-        allowNull: false
-      },
-      task: {
-        type: Sequelize.STRING,
-        allowNull: false
+        allowNull: false,
       },
       user_id: {
         type: Sequelize.INTEGER,
-        references: {model: 'users', key: 'id'},
+        references: { model: 'users', key: 'id' },
         onUpdate: 'CASCADE',
         onDelete: 'SET NULL',
-        allowNull: false
+        allowNull: false,
       },
       created_at: {
         type: Sequelize.DATE,
-        allowNull: false
+        allowNull: false,
       },
       updated_at: {
         type: Sequelize.DATE,
-        allowNull: false
-      }
+        allowNull: false,
+      },
     });
   },
 
-  down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('tasks');
-
-  }
+  down: queryInterface => {
+    return queryInterface.dropTable('tasks');
+  },
 };
