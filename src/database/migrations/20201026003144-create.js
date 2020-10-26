@@ -9,7 +9,7 @@ module.exports = {
         autoIncrement: true,
         primaryKey: true
       },
-      chek: {
+      check: {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
         allowNull: false
