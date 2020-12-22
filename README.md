@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 <a id="como-usar"></a>
 ## :zap: Como usar
 
-- Faça um clone desse repositório: `git clone https://github.com/ThalysonOliveira/DevHouse-API.git
+- Faça um clone desse repositório: `git clone https://github.com/ThalysonOliveira/TaskList-API.git
 - Instale as dependências: `yarn` ou `npm install`
 - Configurnado o banco para uso:
    - `yarn sequelize db:create`
