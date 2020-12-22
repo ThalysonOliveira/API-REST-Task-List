@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 ## :fire: **Pré-requisitos**
 
 - [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+- [Yarn](https://yarnpkg.com/)
 - [PostgresSQL](https://www.postgresql.org/)
 
 
@@ -33,12 +33,12 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 ## :zap: Como usar
 
 - Faça um clone desse repositório: `git clone https://github.com/ThalysonOliveira/TaskList-API.git
-- Instale as dependências: `yarn` ou `npm install`
+- Instale as dependências: `yarn`
 - Configurnado o banco para uso:
    - `yarn sequelize db:create`
    - `yarn sequelize db:migrate`
 - Inicie a aplicação:
-   - Rode o comando de inicialização: `yarn start` ou `npm start`
+   - Rode o comando de inicialização: `yarn dev`
 
 <a id="funcionalidades"></a>
 ## 🛠️ Funcionalidades
