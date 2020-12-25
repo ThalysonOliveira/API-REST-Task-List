@@ -18,6 +18,7 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 - [Express](https://expressjs.com/pt-br/)
 - [PostgresSQL](https://www.postgresql.org/)
 - [Sequelize](https://sequelize.org/master/index.html)
+- [JWT](https://jwt.io/)
 - [Eslint](https://eslint.org/)
 - [EditorConfig](https://editorconfig.org/ )
 
@@ -32,7 +33,7 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 <a id="como-usar"></a>
 ## :zap: Como usar
 
-- Faça um clone desse repositório: `git clone https://github.com/ThalysonOliveira/TaskList-API.git
+- Faça um clone desse repositório: `git clone https://github.com/ThalysonOliveira/TaskList-API.git`
 - Instale as dependências: `yarn`
 - Configurnado o banco para uso:
    - `yarn sequelize db:create`
