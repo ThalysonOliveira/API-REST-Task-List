@@ -12,7 +12,7 @@
 <a id="tecnologia"></a>
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
+Esse projeto foi desenvolvido utilizando as seguintes tecnologia:
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 
 - Faça um clone desse repositório: `git clone https://github.com/ThalysonOliveira/TaskList-API.git`
 - Instale as dependências: `yarn`
-- Configurnado o banco para uso:
+- Configurando o banco para uso:
    - `yarn sequelize db:create`
    - `yarn sequelize db:migrate`
 - Inicie a aplicação:
